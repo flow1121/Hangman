@@ -4,10 +4,6 @@ public class Word {
 	private StringBuilder question=new StringBuilder();
 	private char[] letter;
 	
-	public Word() {
-		
-	}
-	
 	public Word(String answer){
 		ans=answer;
 		letter=new char[ans.length()];
